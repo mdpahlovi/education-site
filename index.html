@@ -44,7 +44,7 @@
               </ul>
             </div>
             <div class="navbar-end">
-              <a class="btn btn-primary btn-outline">Register</a>
+              <a class="btn btn-primary btn-outline" href="#register">Register</a>
             </div>
         </div>
     </nav>
@@ -175,7 +175,93 @@
         </div>
       </div>
     </section>
-    
+
+    <!-- Ready To Join Section -->
+    <section class="mt-10 md:mt-12 lg:mt-14 xl:mt-16" id="register">
+      <div  class="container mx-auto">
+        <div class="mx-6 p-6 sm:p-8  flex flex-col md:flex-row justify-between items-center gap-5 bg-primary rounded text-white text-center md:text-left">
+          <div class="flex flex-col gap-5">
+            <h3 class="text-5xl font-bold">Ready To Join</h3>
+            <p>It is a long established fact that a reader will be distracted by the<br class="hidden sm:block"> readable content of a page when looking at its layout.
+            </p>
+          </div>
+          <label for="my-modal-6" class="btn btn-ghost bg-white text-primary modal-button">Register Now</label>
+
+          <!-- Popup Section -->
+          <input type="checkbox" id="my-modal-6" class="modal-toggle" />
+            <div class="modal modal-bottom sm:modal-middle">
+              <div class="modal-box">
+                  <label class="label">
+                      <span class="label-text">Gmain</span>
+                  </label>
+                  <input type="email" placeholder="Gmail" class="input input-bordered w-full" />
+                  <label class="label">
+                      <span class="label-text">Password</span>
+                  </label>
+                  <input type="password" placeholder="password" class="input input-bordered w-full" />
+                  <div class="mt-4 flex justify-between">
+                    <label class="label p-0">
+                      <a href="#" class="label-text-alt link link-hover btn btn-sm btn-primary btn-outline text-white">Forgot password?</a>
+                    </label>
+                    <label class="label p-0">
+                      <a href="#" class="label-text-alt link link-hover btn btn-sm btn-primary btn-outline text-white">Register Now</a>
+                    </label>
+                  </div>
+                  <div class="modal-action mt-4">
+                  <label for="my-modal-6" class="btn btn-primary">Close</label>
+                  </div>
+              </div>
+            </div>
+            <!-- End -->
+
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="mt-10 md:mt-12 lg:mt-14 xl:mt-16">
+      <div class="max-w-2xl mx-auto px-8">
+        <div class="flex flex-col gap-5 text-center">
+          <h3 class="text-5xl font-bold">Frequently Asked Questions</h3>
+          <p>It is a long established fact that a reader will be distracted by the<br class="hidden sm:block"> readable content of a page when looking at its layout.
+          </p>
+        </div>
+        <div class="my-3 flex flex-col gap-3 text-center">
+          <div tabindex="0" class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
+            <div class="collapse-title text-xl font-medium">
+              what is the difference between flex and grid?
+            </div>
+            <div class="collapse-content"> 
+              <p>The basic difference between CSS Flex and Grid Layout is that flex was designed for layout in one dimension - either a row or a column.On the other hand grid was designed for two-dimensional layout - rows, and columns at the same time.</p>
+            </div>
+          </div>
+          <div tabindex="0" class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
+            <div class="collapse-title text-xl font-medium">
+              what is the difference between Bootstrap and Tailwind CSS?
+            </div>
+            <div class="collapse-content"> 
+              <p>Bootstrap is components base CSS framework. Tailwind CSS is a utility base CSS framework. Sites created using Bootstrap follow the generic pattern that makes them look identical. You can create site as your own preference by tailwind CSS</p>
+            </div>
+          </div>
+          <div tabindex="0" class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
+            <div class="collapse-title text-xl font-medium">
+              What is CSS Box Model?
+            </div>
+            <div class="collapse-content"> 
+              <p>The CSS box model is essentially a box that wraps around every HTML element. It consists of four area that ar Content area,Padding area, Border area & margin area.I descrive how those area are stay in a Html element</p>
+            </div>
+          </div>
+          <div tabindex="0" class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
+            <div class="collapse-title text-xl font-medium">
+              what is semantic tag?
+            </div>
+            <div class="collapse-content"> 
+              <p>Semantic tag are those that clearly describe their meaning in a human- and machine-readable way. Elements such as header , footer, article, navbar & section are all considered semantic because they accurately describe the purpose of the element and the type of content that is inside them.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
 
