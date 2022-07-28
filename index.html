@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code School | Learn code with fun</title>
+
+    <!-- Tailwind CSS & daisyUI Link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.20.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Vanilla css Link -->
+    <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+<body>
+    
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="container mx-auto px-4 navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <label tabindex="0" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </label>
+                <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+                  <li><a href="#home">Home</a></li>
+                  <li><a>Item 1</a></li>
+                  <li><a>Item 1</a></li>
+                  <li><a>Item 1</a></li>
+                  <li><a>Item 3</a></li>
+                </ul>
+              </div>
+              <a class="text-3xl font-bold cursor-pointer">Code <span class="text-primary">School</span></a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal p-0">
+                <li><a href="#home">Home</a></li>
+                <li><a>Item 1</a></li>
+                <li><a>Item 1</a></li>
+                <li><a>Item 1</a></li>
+                <li><a>Item 3</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+              <a class="btn btn-primary btn-outline">Register</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner Section -->
+    <section id="home">
+      <div class="carousel w-full max-h-screen">
+        <div id="slide1" class="carousel-item relative w-full">
+          <img src="images/cover/cover-1.png" class="w-full" />
+          <div class="w-full h-screen absolute bg-black opacity-50"></div>
+          <div class="absolute flex justify-between items-center transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="text-white btn btn-outline">❮</a>
+            <div class="text-center text-white">
+              <h1 class="text-[30px] sm:text-4xl md:text-[40px] lg:text-5xl font-bold mb-4">
+              Get Started Digital<br />
+              Learning
+              </h1>
+              <p class="w-4/6 mx-auto mb-4 hidden sm:block">
+              It is a long established fact that a reader will be distracted
+              by the readable content of a page when looking at its layout.
+              </p>
+              <div class="hidden sm:block">
+                <a class="btn btn-primary">Get started</a>
+              </div>
+            </div> 
+            <a href="#slide2" class="text-white btn btn-outline">❯</a>
+          </div>
+        </div> 
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="images/cover/cover-2.jpg" class="w-full" />
+          <div class="w-full h-screen absolute bg-black opacity-50"></div>
+          <div class="absolute flex justify-between items-center transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="text-white btn btn-outline">❮</a>
+            <div class="text-center text-white">
+              <h1 class="text-[30px] sm:text-4xl md:text-[40px] lg:text-5xl font-bold mb-4">
+              Get Started Digital<br />
+              Learning
+              </h1>
+              <p class="w-4/6 mx-auto mb-4 hidden sm:block">
+              It is a long established fact that a reader will be distracted
+              by the readable content of a page when looking at its layout.
+              </p>
+              <div class="hidden sm:block">
+                <a class="btn btn-primary">Get started</a>
+              </div>
+            </div>
+            <a href="#slide3" class="text-white btn btn-outline">❯</a>
+          </div>
+        </div> 
+        <div id="slide3" class="carousel-item relative w-full">
+          <img src="images/cover/cover-3.jpg" class="w-full" />
+          <div class="w-full h-screen absolute bg-black opacity-50"></div>
+          <div class="absolute flex justify-between items-center transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="text-white btn btn-outline">❮</a>
+            <div class="text-center text-white">
+              <h1 class="text-[30px] sm:text-4xl md:text-[40px] lg:text-5xl font-bold mb-4">
+              Get Started Digital<br />
+              Learning
+              </h1>
+              <p class="w-4/6 mx-auto mb-4 hidden sm:block">
+              It is a long established fact that a reader will be distracted
+              by the readable content of a page when looking at its layout.
+              </p>
+              <div class="hidden sm:block">
+                <a class="btn btn-primary">Get started</a>
+              </div>
+            </div> 
+            <a href="#slide4" class="text-white btn btn-outline">❯</a>
+          </div>
+        </div> 
+      </div>
+    </section>
+
+    
+
+
+
+</body>
+</html>
